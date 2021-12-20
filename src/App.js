@@ -1,15 +1,16 @@
+import { Shop } from '../src/pages/Shop';
 import './App.css';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+
+       <Shop />
        
-        <p>
-          e-commerce-app
-        </p>
-      
-      </header>
+    
     </div>
   );
 }
